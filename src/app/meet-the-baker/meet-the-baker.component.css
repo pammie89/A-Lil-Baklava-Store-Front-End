@@ -1,0 +1,17 @@
+.author {
+    background-color: #cbc7c7;
+    min-width: 100%;
+    margin-top: 3rem;
+}
+.custom-width {
+    width: 60%;
+    margin-right: 3rem;
+  }
+
+  .custom-align{
+    padding-left: 3rem;
+    margin-top: 4rem;
+  }
+  .aysha {
+    font-size: 1.5rem;
+  }
