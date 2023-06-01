@@ -13,10 +13,10 @@ import { FooterComponent } from './footer/footer.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AboutComponent } from './about/about.component';
 import { ChoicesComponent } from './choices/choices.component';
-import { OrderingComponent } from './ordering/ordering.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -33,10 +33,10 @@ import { GalleryComponent } from './gallery/gallery.component';
     HomePageComponent,
     AboutComponent,
     ChoicesComponent,
-    OrderingComponent,
     LoginComponent,
     RegisterComponent,
     GalleryComponent,
+    ContactComponent,
 
 
 
