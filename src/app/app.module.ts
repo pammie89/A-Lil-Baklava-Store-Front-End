@@ -19,6 +19,8 @@ import { RegisterComponent } from './register/register.component';
 import { GalleryComponent } from './gallery/gallery.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +37,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     LoginComponent,
     RegisterComponent,
     GalleryComponent,
+
+
 
   ],
   imports: [
