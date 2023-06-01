@@ -15,6 +15,7 @@ import { AboutComponent } from './about/about.component';
 import { ChoicesComponent } from './choices/choices.component';
 import { OrderingComponent } from './ordering/ordering.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { LoginComponent } from './login/login.component';
     ChoicesComponent,
     OrderingComponent,
     LoginComponent,
+    RegisterComponent,
 
   ],
   imports: [

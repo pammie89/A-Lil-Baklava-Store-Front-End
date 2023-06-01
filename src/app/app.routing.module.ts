@@ -5,6 +5,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { ChoicesComponent } from './choices/choices.component';
 import { OrderingComponent } from './ordering/ordering.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -31,7 +32,12 @@ const routes: Routes = [
     {
       path: 'login',
       component: LoginComponent
+    },
+    {
+      path: 'register',
+      component: RegisterComponent
     }
+    
     
   ];
   
