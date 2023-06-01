@@ -12,6 +12,7 @@ import { TestimonialComponent } from './home-page/testimonial/testimonial.compon
 import { FooterComponent } from './footer/footer.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AboutComponent } from './about/about.component';
+import { ChoicesComponent } from './choices/choices.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { AboutComponent } from './about/about.component';
     FooterComponent,
     HomePageComponent,
     AboutComponent,
+    ChoicesComponent,
 
   ],
   imports: [
