@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AboutComponent } from './about/about.component';
 import { ChoicesComponent } from './choices/choices.component';
+import { OrderingComponent } from './ordering/ordering.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { ChoicesComponent } from './choices/choices.component';
     HomePageComponent,
     AboutComponent,
     ChoicesComponent,
+    OrderingComponent,
 
   ],
   imports: [
