@@ -6,6 +6,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HeroComponent } from './hero/hero.component';
 import { ImagecolsComponent } from './imagecols/imagecols.component';
 import { MeetTheBakerComponent } from './meet-the-baker/meet-the-baker.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { MeetTheBakerComponent } from './meet-the-baker/meet-the-baker.component
     NavBarComponent,
     HeroComponent,
     ImagecolsComponent,
-    MeetTheBakerComponent
+    MeetTheBakerComponent,
+    TestimonialComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

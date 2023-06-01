@@ -1,0 +1,29 @@
+.carousel-indicators [data-bs-target] {
+  text-indent: -9999px;
+  background-color: transparent;
+  border: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.carousel-indicators li[data-bs-target]:before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+
+.blockquote-footer {
+    color: #ffc107;
+    font-weight: 600;
+}
+
+.testimonial-background {
+    background-color: #cbc7c7;
+    min-width: 100%;
+}

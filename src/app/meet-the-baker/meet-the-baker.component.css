@@ -1,15 +1,17 @@
 .author {
-    background-color: #cbc7c7;
+    
+    background-color: #e6dec6;
     min-width: 100%;
     margin-top: 3rem;
 }
 .custom-width {
     width: 60%;
-    margin-right: 3rem;
+    margin-right: 5rem;
+    border-radius: 10%;
   }
 
   .custom-align{
-    padding-left: 3rem;
+    padding-left: 4rem;
     margin-top: 4rem;
   }
   .aysha {
