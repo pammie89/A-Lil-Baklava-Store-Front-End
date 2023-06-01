@@ -16,6 +16,7 @@ import { ChoicesComponent } from './choices/choices.component';
 import { OrderingComponent } from './ordering/ordering.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { RegisterComponent } from './register/register.component';
     OrderingComponent,
     LoginComponent,
     RegisterComponent,
+    GalleryComponent,
 
   ],
   imports: [
