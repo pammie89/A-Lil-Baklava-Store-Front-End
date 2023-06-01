@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ChoicesComponent } from './choices/choices.component';
 import { OrderingComponent } from './ordering/ordering.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -26,6 +27,10 @@ const routes: Routes = [
     {
       path: 'ordering',
       component: OrderingComponent
+    },
+    {
+      path: 'login',
+      component: LoginComponent
     }
     
   ];

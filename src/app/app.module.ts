@@ -14,6 +14,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { AboutComponent } from './about/about.component';
 import { ChoicesComponent } from './choices/choices.component';
 import { OrderingComponent } from './ordering/ordering.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { OrderingComponent } from './ordering/ordering.component';
     AboutComponent,
     ChoicesComponent,
     OrderingComponent,
+    LoginComponent,
 
   ],
   imports: [
