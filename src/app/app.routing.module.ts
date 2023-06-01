@@ -3,10 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ChoicesComponent } from './choices/choices.component';
-import { OrderingComponent } from './ordering/ordering.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ContactComponent } from './contact/contact.component';
+
+
 
 
 
@@ -26,10 +28,7 @@ const routes: Routes = [
       path: 'choices',
       component: ChoicesComponent
     },
-    {
-      path: 'ordering',
-      component: OrderingComponent
-    },
+   
     {
       path: 'login',
       component: LoginComponent
@@ -41,7 +40,12 @@ const routes: Routes = [
     {
       path: 'gallery',
       component: GalleryComponent
-    }
+    },
+    {
+      path: 'contact',
+      component: ContactComponent
+    },
+  
     
     
   ];
