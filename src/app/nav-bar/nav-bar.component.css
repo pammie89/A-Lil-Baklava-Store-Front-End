@@ -7,7 +7,7 @@
      background-color: #cbc7c7;
 }
 .nav-link {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-right: 2rem;
 }
 .nav-link:hover {
@@ -29,6 +29,12 @@
     --bs-btn-disabled-bg: #99a0a6;
     --bs-btn-disabled-border-color: #99a0a6;
 
+}
+
+@media screen and (max-width: 1200px){
+    .small-logo {
+        max-width: 30%;
+    }
 }
 
 

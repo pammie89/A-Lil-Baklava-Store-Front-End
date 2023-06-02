@@ -11,12 +11,13 @@ import { MeetTheBakerComponent } from './home-page/meet-the-baker/meet-the-baker
 import { TestimonialComponent } from './home-page/testimonial/testimonial.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomePageComponent } from './home-page/home-page.component';
-import { AboutComponent } from './about/about.component';
+
 import { ChoicesComponent } from './choices/choices.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
+import { NoticesComponent } from './notices/notices.component';
 
 
 
@@ -31,12 +32,12 @@ import { ContactComponent } from './contact/contact.component';
     TestimonialComponent,
     FooterComponent,
     HomePageComponent,
-    AboutComponent,
     ChoicesComponent,
     LoginComponent,
     RegisterComponent,
     GalleryComponent,
     ContactComponent,
+    NoticesComponent,
 
 
 
