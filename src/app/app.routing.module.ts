@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './about/about.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ChoicesComponent } from './choices/choices.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
+import { NoticesComponent } from './notices/notices.component';
 
 
 
@@ -20,10 +20,7 @@ const routes: Routes = [
         component: HomePageComponent
       },
   
-    {
-      path: 'about',
-      component: AboutComponent
-    },
+ 
     {
       path: 'choices',
       component: ChoicesComponent
@@ -44,6 +41,10 @@ const routes: Routes = [
     {
       path: 'contact',
       component: ContactComponent
+    },
+    {
+      path: 'notices',
+      component: NoticesComponent
     },
   
     
