@@ -22,7 +22,7 @@ This is my Capstone project for the Interapt / General Assembly Apprenticeship C
 The theme of this Capstone is my daughter's baklava business. The project involves building 
 both the backend using Java/Springboot and the frontend using Angular.  This is the frontend part of the project.
 
-
+[Backend Part of the Project](https://github.com/pammie89/A-Lil-Baklava-Store-Back-End)
 ***
 
 ## Project Planning
@@ -84,3 +84,12 @@ both the backend using Java/Springboot and the frontend using Angular.  This is 
 
 
 ![Project Wireframe](./src/assets/wireframe.jpg)<br><br>
+
+***
+
+## Favorite Parts
+
+My favorite part is the design aspect of this part of the project. 
+It effectively portrays and visually promotes the product it was created for.
+
+***
