@@ -29,7 +29,7 @@ both the backend using Java/Springboot and the frontend using Angular.  This is 
 
 ### Progress Snapshot 1
 
-![Kanban Board 1](./assets/kanban1.png)<br><br>
+![Kanban Board 1](./src/assets/kanban1.png)<br><br>
 
 ### Progress Snapshot 2
 
