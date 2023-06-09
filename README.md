@@ -93,3 +93,24 @@ My favorite part is the design aspect of this part of the project.
 It effectively portrays and visually promotes the product it was created for.
 
 ***
+
+
+## Wins & Hurdles
+
+#### <ins>Wins</ins>
+
+I have experienced many wins throughout the duration of this project, below are a few in which I hold most dear.
+
+- Very proud that my first full stack app developed will benefit my daughters business.
+- Enjoyed seeing the connections between the front and backends.
+- Gained more bootstrap experienc, as I have never worked with it with Angular before.
+
+#### <ins>Hurdles</ins>
+
+I didn't experience too many hurdles in the frontend, however I did run into some issues with connecting the endpoints.
+
+
+  <br>
+
+***
+
