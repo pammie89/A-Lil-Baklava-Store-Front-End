@@ -10,7 +10,7 @@
         <!-- <a class="navbar-brand col-lg-3 me-0" href="#"><img src="../../assets/logo.png" width="40%" style="padding-left: .50rem;"></a> -->
         <ul class="navbar-nav col-lg-6 justify-content-lg-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" routerLink="/" aria-current="page" href="/">Home</a>
           </li>
            <li class="nav-item">
             <a routerLink="/choices" class="nav-link">Ordering Options</a>
@@ -28,8 +28,9 @@
           
         </ul>
         <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-        <button routerLink="/login" class="btn btn-warning">Login</button>&nbsp; &nbsp;
-          <button routerLink="/register" class="btn btn-gray">Register</button>
+        <button routerLink="/choices" class="btn btn-warning">Place Order</button>&nbsp; &nbsp;
+          <!-- <button routerLink="/register" class="btn btn-gray">Register</button>&nbsp; &nbsp;
+          <button routerLink="/admin-page" class="btn btn-warning">Admin</button> -->
         </div>
         
       </div>

@@ -1,3 +1,4 @@
+import { AdminPageComponent } from './admin-page/admin-page.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
@@ -7,13 +8,16 @@ import { RegisterComponent } from './register/register.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
 import { NoticesComponent } from './notices/notices.component';
-
+import { ConfirmationComponent } from './confirmation/confirmation.component';
+import { OrderFormComponent } from './order-form/order-form.component';
+import { ProductConfirmationComponent } from './product-confirmation/product-confirmation.component';
 
 
 
 
 
 const routes: Routes = [
+ 
 
     {
         path: '',
@@ -46,8 +50,14 @@ const routes: Routes = [
       path: 'notices',
       component: NoticesComponent
     },
-  
+
+    { path: 'order-form', component: OrderFormComponent },
+
+    { path: 'confirmation', component: ConfirmationComponent },
     
+    { path: 'admin-page', component: AdminPageComponent },
+  
+    { path: 'productConfirmation', component: ProductConfirmationComponent },
     
   ];
   

@@ -1,0 +1,27 @@
+/* Custom CSS for aligning name and email fields */
+.form-row .form-group {
+    margin-bottom: 0; /* Remove default bottom margin to align fields */
+  }
+  
+  /* Adjust the width of the name and email fields */
+  .form-row .form-group input[type="text"],
+  .form-row .form-group input[type="email"] {
+    width: 100%; /* Fill the available width */
+  }
+  
+  /* Add space between the name and email fields */
+  .form-row .form-group.col {
+    margin-right: 10px;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 576px) {
+    .form-row .form-group.col {
+      margin-right: 0; /* Remove margin for smaller screens */
+      margin-bottom: 10px; /* Add bottom margin to create vertical space */
+    }
+  }
+
+
+ 
+  
