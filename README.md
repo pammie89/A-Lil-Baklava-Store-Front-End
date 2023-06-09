@@ -75,3 +75,12 @@ both the backend using Java/Springboot and the frontend using Angular.  This is 
 1. Add a blog section - ✗
 2. Have a shopping cart - ✗
 3. Implement payment gateway - ✗
+
+
+***
+
+## Wireframe
+
+
+
+![Project Wireframe](./src/assets/wireframe.jpg)<br><br>
