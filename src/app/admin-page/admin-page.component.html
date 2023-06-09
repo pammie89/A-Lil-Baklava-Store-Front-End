@@ -3,7 +3,7 @@
 
 <div class="container">
     <h2>Add Product Form</h2>
-    <form>
+    <form (ngSubmit)="submitForm()">
       <div class="form-group">
         <label for="name">Name:</label>
         <input type="text" class="form-control" id="name" placeholder="Enter name">
@@ -19,6 +19,8 @@
 </div>
 </section>
 
+
+//Get all orders
 <section>
     <h1>See all orders</h1>
     all orders should display here

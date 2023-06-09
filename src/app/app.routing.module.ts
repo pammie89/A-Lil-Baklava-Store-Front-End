@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NoticesComponent } from './notices/notices.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
 import { OrderFormComponent } from './order-form/order-form.component';
+import { ProductConfirmationComponent } from './product-confirmation/product-confirmation.component';
 
 
 
@@ -56,7 +57,7 @@ const routes: Routes = [
     
     { path: 'admin-page', component: AdminPageComponent },
   
-    
+    { path: 'productConfirmation', component: ProductConfirmationComponent },
     
   ];
   

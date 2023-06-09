@@ -23,6 +23,9 @@ import { OrderFormComponent } from './order-form/order-form.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { AdminPageComponent } from './admin-page/admin-page.component';
+import { ProductConfirmationComponent } from './product-confirmation/product-confirmation.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -47,6 +50,9 @@ import { AdminPageComponent } from './admin-page/admin-page.component';
     ConfirmationComponent,
     AddProductComponent,
     AdminPageComponent,
+    ProductConfirmationComponent,
+    
+   
 
 
 
@@ -55,9 +61,11 @@ import { AdminPageComponent } from './admin-page/admin-page.component';
     BrowserModule,
     RouterModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
