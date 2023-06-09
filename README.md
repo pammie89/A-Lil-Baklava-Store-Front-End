@@ -114,3 +114,13 @@ I didn't experience too many hurdles in the frontend, however I did run into som
 
 ***
 
+## Technologies & Tools
+
+- GitHub Project
+- Angular Framework
+- Angular Router
+- Node.js
+- Bootstrap
+- HttpClient
+
+***
