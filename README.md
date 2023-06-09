@@ -54,3 +54,24 @@ both the backend using Java/Springboot and the frontend using Angular.  This is 
 
 
 ***
+
+
+## MVP ( - ✓ - Completed / - ✗ - Not Completed)
+
+1. Should be developed with Angular. - ✓
+2. Should consist of Bootstrap styling - ✓
+3. Should have a navigation bar that appears on every page. - ✓
+4. Should consist of 3 products. - ✓
+5. Should have a product gallery. - ✓
+6. Should have an admin page. - ✓
+7. Should have product photos. - ✓
+8. Should connect to the backend - ✓
+9. Utilize KISS & DRY Principals. - ✓
+10. Utlize git branches. - ✓
+
+
+## Silver MVP ( - ✓ - Completed / - ✗ - Not Completed)
+
+1. Add a blog section - ✗
+2. Have a shopping cart - ✗
+3. Implement payment gateway - ✗
