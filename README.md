@@ -128,8 +128,8 @@ I didn't experience too many hurdles in the frontend, however I did run into som
 ## Credits
 
 
-- I used this resource for my social icons [Pexels](https://www.flaticon.com/free-icons/instagram) and [Pixabay](https://pixabay.com) for header graphic<br>
-- I utilized figma to create my wireframe [Flaticon](http://figma.com).
+- I used this resource for my social icons [Flaticon](https://www.flaticon.com/free-icons/instagram) and [Pixabay](https://pixabay.com) for header graphic<br>
+- I utilized figma to create my wireframe [Figma](http://figma.com).
 
 
 - I want to express my heartfelt gratitude to [Suresh](https://github.com/sureshmelvinsigera), [Leo](https://github.com/LRodriguez92) and [Dhrubo](https://www.linkedin.com/in/dhrubo-hasan/).   Their teachings over the past three months made it possible for me to finish building a full stack app using Java/Springboot and Angular. I couldn't have done it without them!
