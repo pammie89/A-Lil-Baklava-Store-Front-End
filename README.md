@@ -33,6 +33,6 @@ both the backend using Java/Springboot and the frontend using Angular.  This is 
 
 ### Progress Snapshot 2
 
-![Kanban Board 2](./assets/kanban2.png)<br><br>
+![Kanban Board 2](./src/assets/kanban2.png)<br><br>
 
 [View Planning Kanban Board](https://github.com/users/pammie89/projects/1)
