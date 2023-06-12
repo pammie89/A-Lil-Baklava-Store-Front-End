@@ -41,16 +41,15 @@ both the backend using Java/Springboot and the frontend using Angular.  This is 
 ## User Stories
 
 
-- As a user, I should be able place an order<br>
+- As a user, I should be able to get product information<br>
 - As a user, I should be able to see a product gallery<br>
 - As a user, I should be able get in touch with the baker<br>
 - As a user, I should be able to reach company by social links<br>
-- As a user, I should be able to place an order<br>
-- As a user, I should be able to receive a confirmation page of order submission<br>
-- As a admin, I should be able to access an admin page to view orders <br>
-- As a admin, I should be able to add products <br>
-- As a admin, I should be able to edit products <br>
+- As a user, I should be able to be given instructions on how to purchase<br>
+- As an admin, I should be able to access an admin page to add new products <br>
 - As a admin, I should be able to delete products <br>
+- As a admin, I should be able to view product list <br>
+
 
 
 ***
