@@ -54,7 +54,7 @@ import { ProductService } from './product.service';
     AdminPageComponent,
     ProductConfirmationComponent,
     ProductComponent,
-    
+
    
 
 
