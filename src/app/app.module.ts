@@ -26,6 +26,8 @@ import { AdminPageComponent } from './admin-page/admin-page.component';
 import { ProductConfirmationComponent } from './product-confirmation/product-confirmation.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ProductComponent } from './product/product.component';
+import { ProductService } from './product.service';
 
 
 
@@ -51,7 +53,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     AddProductComponent,
     AdminPageComponent,
     ProductConfirmationComponent,
-    
+    ProductComponent,
+
    
 
 
@@ -65,7 +68,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     ReactiveFormsModule,
   ],
-  providers: [HttpClientModule],
+  providers: [HttpClientModule, ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

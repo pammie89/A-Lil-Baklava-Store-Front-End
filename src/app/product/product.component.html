@@ -1,0 +1,65 @@
+<style>
+  .fieldLabel {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .orderSubmit {
+    margin: 2rem 0;
+  }
+  .sizer {
+    font-size: 1.3rem;
+    padding-left: 1%;
+    padding-bottom: 1%;
+  }
+  .shift {
+   background-color: #eeeeee;
+   padding-left: 3rem;
+   margin-top: 3rem;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+  }
+</style>
+
+<div class="container shift">
+  <div class="row">
+    <div class="col-md-12">
+
+<h2>Product List</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <td>{{ product.name }}</td>
+      <td>{{ product.price }}</td>
+      <td>
+        <button (click)="deleteProduct(product.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 style="padding-top:3rem;">Create New Product</h2>
+
+<form (submit)="createProduct()">
+  <label for="name" class="fieldLabel">Name: </label>
+  <input type="text" name="name" id="name" [(ngModel)]="newProduct.name" required>
+  <label for="price" class="fieldLabel">Price: </label>
+  <input type="number" id="price" name="price" [(ngModel)]="newProduct.price" required>
+  <button class="btn btn-warning" style="margin-left:1.5rem;" type="submit">Create</button>
+</form>
+
+
+
+
+  
+</div></div></div>

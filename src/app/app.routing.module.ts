@@ -11,6 +11,7 @@ import { NoticesComponent } from './notices/notices.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
 import { OrderFormComponent } from './order-form/order-form.component';
 import { ProductConfirmationComponent } from './product-confirmation/product-confirmation.component';
+import { ProductComponent } from './product/product.component';
 
 
 
@@ -59,6 +60,7 @@ const routes: Routes = [
   
     { path: 'productConfirmation', component: ProductConfirmationComponent },
     
+    { path: 'products', component: ProductComponent },
   ];
   
   @NgModule({
