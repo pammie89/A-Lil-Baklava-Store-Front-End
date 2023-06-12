@@ -1,11 +1,15 @@
 <div class="hero-section">
     <div class="video-container">
-      <video loop>
-        <source src="../../assets//Baklava-Headers.mp4" type="video/mp4">
+      <video loop autoplay>
+        <source src="../../assets/baklavaheaders.mp4" type="video/mp4">
         <!-- Provide alternative formats for broader browser compatibility -->
     
         <p>Your browser does not support the video tag.</p>
       </video>
+      <script>
+        var video = document.getElementById("myVideo");
+        video.currentTime = 9; // Set the starting point to 10 seconds
+      </script>
       <div class="overlay"></div>
     </div>
     <div class="content">
@@ -14,7 +18,7 @@
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">Experience the delectable delight of our exquisite homemade Baklava. Made with authentic pastasio nuts, which sets it apart from the common use of walnuts among pastry chefs.</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-warning btn-lg px-4">Ordering Options</button>
+          <button type="button" routerLink="/choices" class="btn btn-warning btn-lg px-4">Ordering Options</button>
       </div>
     </div>
   </div>
